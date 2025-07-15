@@ -2,7 +2,7 @@
 
 import AnimatedBackground from '@/components/ui/animated-background'
 import TextLoop from '@/components/ui/text-loop'
-import ThemeToggle from '@/components/ThemeToggle' // ✅ Clean import
+import ThemeToggle from '@/components/ui/themetoggle'
 
 export default function Footer() {
   return (
@@ -21,8 +21,6 @@ export default function Footer() {
           <p className="text-sm text-zinc-600 dark:text-zinc-400">
             © {new Date().getFullYear()} Rabeel Ashraf – Crafted with ❤️
           </p>
-
-          {/* 🌙 Theme Toggle */}
           <ThemeToggle />
         </div>
       </footer>
